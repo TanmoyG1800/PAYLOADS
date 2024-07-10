@@ -1,1 +1,1 @@
-Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/download/v1.8.1791/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -OutFile 1Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle  | Out-Null
+Start-BitsTransfer -Source "https://github.com/microsoft/winget-cli/releases/download/v1.8.1911/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" -Destination "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
